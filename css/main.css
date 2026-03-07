@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.hero {
+  width: 100%;
+  height: 600px;
+  padding-top: 100px;
+  background: url("../assets/img/bg-image.webp") center/cover no-repeat;
+}
+
+.title_1 {
+  max-width: 770px;
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.article__descr {
+  padding: 85px 125px 85px 0;
+}
+.article__descr--reverse {
+  padding: 85px 0 85px 120px;
+}
+.article__sup-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.66;
+  color: #7b7b7b;
+  margin-bottom: 30px;
+}
+.article__title {
+  max-width: 369px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 1.66;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.article__date {
+  font-family: "Lato", sans-serif;
+  display: inline-flex;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.66;
+  color: #7b7b7b;
+  margin-bottom: 50px;
+}
+.article__text {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.66;
+  color: #565656;
+}
+.article__next {
+  margin-left: 16px;
+}
+.article--reverse {
+  flex-direction: row-reverse;
+}/*# sourceMappingURL=main.css.map */
