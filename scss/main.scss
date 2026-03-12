@@ -35,15 +35,15 @@ body {
 	align-items: center;
 	margin-right: 84px;
 	&__item {
+		position: relative;
+	}
+	&__link {
 		text-transform: uppercase;
 		font-family: "Lato", sans-serif;
 		font-weight: 400;
 		font-size: 14px;
 		line-height: 1.214;
 		color: #000000;
-		position: relative;
-	}
-	&__link {
 		text-decoration: none;
 		cursor: url("../assets/img/cursor.svg"), pointer;
 
