@@ -10,13 +10,54 @@
 
 <body>
 	<header class="header">
+		<div class="container">
+			<nav class="nav">
+				<div class="logo">
+					<img src="./assets/img/logo.svg" alt="logo">
+				</div>
 
+				<ul class="menu">
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							home
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							about
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							works
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							blog
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">
+							contact
+						</a>
+					</li>
+				</ul>
+
+				<form action="#" method="get" class="search-form">
+					<button class="search-button" type="submit">
+						<img src="./assets/img/search.svg" alt="search">
+					</button>
+					<input class="search-input" type="text" name="q" placeholder="Пошук..." aria-label="Пошук по сайту">
+
+				</form>
+			</nav>
+		</div>
 	</header>
 	<main class="main">
-
 		<section class="hero">
 			<div class="container">
-				<h1 class="title_1">
+				<h1 class="title title--1">
 					Manifest is a newborn theme.
 					Clean, simple and fast.
 				</h1>
@@ -24,23 +65,26 @@
 		</section>
 		<section class="blog">
 			<div class="container">
+				<h2 class="title title--2">
+					Blog
+				</h2>
 				<article class="article">
 					<div class="article__img">
 						<img src="./assets/img/blog_img_1.webp" alt="UX Design Image">
 					</div>
 					<div class="article__descr">
-						<h3 class="article__sup-title">Technology, Interface
-							Design</h3>
-						<h2 class="article__title">Using UX Design to Build
+						<h4 class="title title--4">Technology, Interface
+							Design</h4>
+						<h3 class="article__title">Using UX Design to Build
 							a Sustainable
-							Future</h2>
+							Future</h3>
 						<time datetime="2020-05-06" class="article__date">6
 							May, 2020</time>
 						<p class="article__text">Transformation has to be
 							driven by everybody, not
 							just by climate groups, and we have a
 							responsibility to use our influence to drive
-							this. <a class="article__next" href="#"><img src="./assets/img/arrow.svg" alt="arrow next"></a>
+							this. <a class="article__link" href="#"><img src="./assets/img/arrow.svg" alt="arrow next"></a>
 						</p>
 					</div>
 				</article>
@@ -48,26 +92,207 @@
 					<div class="article__img">
 						<img src="./assets/img/blog_img_2.webp" alt="Front-end skills">
 					</div>
-					<div class="article__descr article__descr--reverse ">
-						<h3 class="article__sup-title">Technology, Interface
-							Design</h3>
-						<h2 class="article__title">Using UX Design to Build
+					<div class="article__descr">
+						<h4 class="title title--4">Technology, Interface
+							Design</h4>
+						<h3 class="article__title">Using UX Design to Build
 							a Sustainable
-							Future</h2>
+							Future</h3>
 						<time datetime="2020-05-06" class="article__date">6
 							May, 2020</time>
 						<p class="article__text">Transformation has to be
 							driven by everybody, not
 							just by climate groups, and we have a
 							responsibility to use our influence to drive
-							this. <a class="article__next" href="#"><img src="./assets/img/arrow.svg" alt="arrow next"></a>
+							this. <a class="article__link" href="#"><img src="./assets/img/arrow.svg" alt="arrow next"></a>
 						</p>
 					</div>
 				</article>
 			</div>
 		</section>
+		<section class="post">
+			<div class="container">
+				<div class="post__heading">
+					<h2 class="title title--post">
+						Latest Posts
+					</h2>
+					<a href="#" class="post__link">View All<img src="./assets/img/arrow.svg" alt="arrow"></a>
+				</div>
+				<div class="post__content">
+					<article class="post__card card">
+						<div class="card__img">
+							<img src="./assets/img/image.jpg" alt="lamp">
+						</div>
+						<div class="card__label">
+							<p>Interface Design</p>
+							<time datetime="2020-07-08">8 June, 2020</time>
+						</div>
+						<div class="card__descr">
+							<h4 class="title title--card">
+								UX traffic light colours
+							</h4>
+							<p>
+								UI has to make a huge visual difference between warning, an alert and a success.
+							</p>
+						</div>
+					</article>
+					<article class="post__card card">
+						<div class="card__img">
+							<img src="./assets/img/image-2.jpg" alt="lamp">
+						</div>
+						<div class="card__label">
+							<p>Technology</p>
+							<time datetime="2020-05-06">6 May, 2020</time>
+						</div>
+						<div class="card__descr">
+							<h4 class="title title--card">
+								Using UX Design to Build a Sustainable Future
+							</h4>
+							<p>
+								UI has to make a huge visual difference between warning, an alert and a success.
+							</p>
+						</div>
+					</article>
+					<article class="post__card card">
+						<div class="card__img">
+							<img src="./assets/img/image-3.jpg" alt="lamp">
+						</div>
+						<div class="card__label">
+							<p>Visual Design</p>
+							<time datetime="2020-07-08">8 June, 2020</time>
+						</div>
+						<div class="card__descr">
+							<h4 class="title title--card">
+								Creativity vs. UX
+							</h4>
+							<p>
+								Is it possible to create a delightful user experience without following best UX practices?
+							</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<section class="post">
+			<div class="container">
+				<div class="post__heading">
+					<h2 class="title title--post">
+						The Most Popular
+					</h2>
+					<a href="#" class="post__link">View All<img src="./assets/img/arrow.svg" alt="arrow"></a>
+				</div>
+				<div class="post__content post__content--popular">
+					<article class="post__card card card--popular">
+						<div class="card__img">
+							<img src="./assets/img/image-4.jpg" alt="image">
+						</div>
+						<div class="card__label">
+							<p>Interface Design</p>
+							<time datetime="2020-07-08">8 June, 2020</time>
+						</div>
+						<div class="card__descr">
+							<h4 class="title title--card">
+								Mentorship Match — How a simple LinkedIn feature can boost diversity
+							</h4>
+							<p>
+								LinkedIn is on a clear mission to make professionals more successful by connecting the global
+								workforce and as we learned — diversity and success go hand in hand
+							</p>
+						</div>
+					</article>
+					<article class="post__card card card--popular">
+						<div class="card__img">
+							<img src="./assets/img/Image-5.jpg" alt="image">
+						</div>
+						<div class="card__label">
+							<p>Visual Design</p>
+							<time datetime="2020-07-08">8 June, 2020</time>
+						</div>
+						<div class="card__descr">
+							<h4 class="title title--card">
+								Creativity vs. UX
+							</h4>
+							<p>
+								Is it possible to create a delightful user experience without following best UX practices?
+							</p>
+						</div>
+					</article>
+					<button class="post__btn" type="button">Load More</button>
+				</div>
+			</div>
+		</section>
+		<section class="info">
+			<div class="container">
+				<div class="flex-container">
+					<div class="info__block">
+						<h3 class="info__about">
+							Full-time UI/UX designer <br>
+							Head of Design at VeronaLabs.com
+						</h3>
+
+						<a href="#" class="info__link"><img src="./assets/img/arrow.svg" alt="arrow"></a>
+					</div>
+					<div class="info__block">
+						<p class="info__text">
+							We work with clients around the world from our headquarters in Charleston, South Carolina.
+						</p>
+						<p class="info__text">
+							We focus on naming, branding, brand narratives, website design and development, and brand
+							experiences.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 	<footer class="footer">
+		<div class="container">
+			<div class="flex-container flex-container--footer">
+				<div class="footer__cta cta">
+					<h2 class="title title--2 title--cta">
+						Need a project?
+					</h2>
+					<p class="cta__contact">
+						(239) 555-0108
+					</p>
+					<p class="cta__contact">
+						tanya.hill@example.com
+					</p>
+				</div>
+				<ul class="social">
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<svg width="24" height="24">
+								<use xlink:href="./assets/img/sprite.svg#instagram" class="social__icon"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<svg width="13" height="24">
+								<use xlink:href="./assets/img/sprite.svg#facebook" class="social__icon"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<svg width="30" height="24">
+								<use xlink:href="./assets/img/sprite.svg#twitter" class="social__icon"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<svg width="24" height="24">
+								<use xlink:href="./assets/img/sprite.svg#linkedin" class="social__icon"></use>
+							</svg>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+			<p class="footer__copyright">© Copyright Manifest Theme. Allrights reserved</p>
+		</div>
 
 	</footer>
 </body>
